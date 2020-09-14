@@ -159,13 +159,11 @@ ul {
   padding: 0 !important;
 }
 
-#navbar {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
 strong {
   font-weight: 600;
+}
+
+.ce--allergen {
+  height: 1.2em;
 }
 /*# sourceMappingURL=index.css.map */
