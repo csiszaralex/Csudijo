@@ -7,4 +7,11 @@ Készítők:
 * Tóth Balázs
 
 ## Specifikáció
-Classroom[https://classroom.google.com]
+[Classroom](https://classroom.google.com)
+
+## TODO
+* index.html
+** szöveg a kép elé
+** Allergén táblázat
+*** Akár hover-rel
+** Étlaphoz szebb scrollbar
