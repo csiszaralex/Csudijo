@@ -7,11 +7,11 @@ Készítők:
 * Tóth Balázs
 
 ## Specifikáció
+Optimális felbontás: 1536*864 px
 [Classroom](https://classroom.google.com)
 
 ## TODO
-* index.html
-** szöveg a kép elé
-** Allergén táblázat
-*** Akár hover-rel
-** Étlaphoz szebb scrollbar
+index.html
+* szöveg a kép elé
+* Allergén táblázat (Akár hover-rel)
+* Étlaphoz szebb scrollbar
