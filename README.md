@@ -11,4 +11,5 @@ Optimális felbontás: 1536*864 px
 [Classroom](https://classroom.google.com)
 
 ## TODO
-Logooo
+*Rólunk
+*Logo

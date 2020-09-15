@@ -239,4 +239,8 @@ ul {
 strong {
   font-weight: 600;
 }
+
+.clear {
+  clear: both;
+}
 /*# sourceMappingURL=main.css.map */
