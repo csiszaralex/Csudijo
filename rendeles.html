@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <title>Csudijó Étterem</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/d7c60268f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./rendeles.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="d-none d-sm-none d-md-flex col-2 ce--nav">
+          <div class="logo">
+            <h1>Csudijó Étterem</h1>
+            <svg
+              width="99"
+              height="99"
+              viewBox="0 0 99 99"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M84.9338 30.5663C84.4972 30.2679 83.9627 30.1486 83.4406 30.2331C82.9186 30.3175 82.449 30.5992 82.1287 31.02C78.9437 35.0167 76.295 39.4127 74.25 44.0963C74.0394 44.5983 73.6423 44.9992 73.1423 45.2146C72.6423 45.4299 72.0783 45.4431 71.5687 45.2513C71.3167 45.1513 71.0869 45.0025 70.8924 44.8136C70.6979 44.6246 70.5425 44.3992 70.4352 44.1502C70.328 43.9011 70.2708 43.6334 70.2672 43.3622C70.2635 43.0911 70.3133 42.8219 70.4137 42.57C72.5318 37.9315 75.3107 33.6243 78.6637 29.7825C78.8637 29.5409 79.0058 29.2568 79.0794 28.9519C79.153 28.6471 79.1562 28.3294 79.0886 28.0232C79.0209 27.7169 78.8844 27.4301 78.6892 27.1846C78.4941 26.9391 78.2456 26.7413 77.9625 26.6063C74.2596 24.8499 70.3903 23.468 66.4125 22.4813C66.086 22.4105 65.7474 22.4184 65.4246 22.5045C65.1018 22.5906 64.8041 22.7523 64.5563 22.9763C56.7178 30.1888 50.2231 38.7366 45.375 48.2213C45.1644 48.7233 44.7673 49.1242 44.2673 49.3396C43.7673 49.5549 43.2033 49.5681 42.6938 49.3763C42.4417 49.2763 42.2119 49.1275 42.0174 48.9386C41.8228 48.7496 41.6675 48.5242 41.5602 48.2752C41.453 48.0261 41.3958 47.7584 41.3922 47.4872C41.3885 47.2161 41.4383 46.9469 41.5387 46.695C45.7495 38.406 51.4552 30.9662 58.3687 24.75C58.6545 24.4792 58.8568 24.1323 58.9517 23.7503C59.0466 23.3682 59.0302 22.967 58.9044 22.5939C58.7786 22.2209 58.5487 21.8917 58.2418 21.6451C57.9349 21.3986 57.5639 21.245 57.1725 21.2025C52.2514 20.6552 47.2848 20.6552 42.3638 21.2025C41.9173 21.2464 41.4973 21.4347 41.1675 21.7388C34.3214 28.1607 28.7267 35.7976 24.6675 44.2613C24.4569 44.7633 24.0598 45.1642 23.5598 45.3796C23.0598 45.5949 22.4958 45.6081 21.9862 45.4163C21.6899 45.3421 21.4138 45.203 21.1778 45.0091C20.9418 44.8152 20.7518 44.5713 20.6216 44.295C20.4913 44.0187 20.4241 43.7169 20.4247 43.4115C20.4252 43.106 20.4937 42.8045 20.625 42.5288C23.4268 36.7418 27.1304 31.4369 31.5975 26.8125C31.8879 26.4782 32.0629 26.0594 32.0968 25.6179C32.1307 25.1764 32.0216 24.7358 31.7857 24.3611C31.5498 23.9864 31.1996 23.6976 30.7868 23.5373C30.3741 23.3771 29.9207 23.3539 29.4937 23.4713C11.5912 28.875 0 40.5488 0 53.625C0 64.9275 8.58 78.375 49.5 78.375C90.42 78.375 99 64.9275 99 53.625C98.7485 48.9172 97.3316 44.3456 94.8764 40.3208C92.4212 36.296 89.0047 32.9441 84.9338 30.5663Z"
+                fill="#303C42"
+              />
+            </svg>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">rólunk</a></li>
+              <li><a href="#">étlap</a></li>
+              <li class="ce--active"><a href="#">rendelés</a></li>
+              <li><a href="#">elérhetőségek</a></li>
+            </ul>
+            <div class="about">
+              <ul>
+                <li>
+                  Készítette: Borbély Bálint, Csiszár Alex, <br />Tóth Balázs
+                </li>
+                <li>&copy 2020</li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section class="col-12 col-md-4 ce--menu">
+          <h1 class="display-4">Rendlés</h1>
+          <ul>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2>Előételek</h2>
+              <ul class="section">
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="ce--item">
+                    <span>
+                      <strong>HIdeg Kacsamáj</strong>
+                      <span class="ce--ar">1500 Ft</span>
+                    </span>
+                    <button class="btn btn-info btn-sm ce--order">
+                      Rendelés&nbsp;
+                      <img src="./pics/baket.svg" alt="" />
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <article class="col-12 col-md-6 ce--content container-fluid">
+          <div class="row ce--row">
+            <h1 class="display-4 col-12">Kosár</h1>
+            <ul class="section col-6" id="kosar">
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="ce--item">
+                  <span>
+                    <strong>HIdeg Kacsamáj</strong>
+                    <span class="ce--ar">1500 Ft</span>
+                  </span>
+                  <button class="btn btn-danger btn-sm ce--delete">
+                    Törlés&nbsp;
+                    <i class="fas fa-trash-alt ce--icon"></i>
+                  </button>
+                </div>
+              </li>
+            </ul>
+            <div class="ce--osszeg col-4 display-4">Végösszeg:<br/><strong>5500</strong> Ft</div>
+
+            <div class="clear"></div>
+          </div>
+          <div class="row ce--row">
+            <h1 class="display-4 col-12">Adatok</h1>
+            <form class="col-10 form-row ce--form">
+              <div class="form-group col-9">
+                <label for="Name">Név</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  placeholder="Pl.: Nagy Péter"
+                  name="Name"
+                />
+              </div>
+              <div class="form-group col-3">
+                <label for="DeliverSelect">Szállítási cím</label>
+                <select
+                  class="form-control"
+                  id="DeliverSelect"
+                  name="DeliverSelect"
+                >
+                  <option>Otthon</option>
+                  <option>+ Új hozzáadása</option>
+                </select>
+              </div>
+              <div class="form-group col-2">
+
+                <label for="postalCode">Irányítószám</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="postalCode"
+                  name="postalCode"
+                  placeholder="Pl.: 1024"
+                  min="1000"
+                  max="9999"
+                />
+              </div>
+              <div class="form-group col-5">
+                <label for="city">Város</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="city"
+                  name="city"
+                  placeholder="Pl.: Cegléd"
+                />
+              </div>
+              <div class="form-group col-5">
+                <label for="addres">Utca, házszám</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addres"
+                  name="addres"
+                  placeholder="Pl.: Nagy Imre út 72."
+                />
+              </div>
+              <div class="form-group col-7">
+                <label for="other">Kiegészítés</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="other"
+                  name="other"
+                  placeholder="Pl.: 7. emelet 1. ajtó"
+                />
+              </div>
+
+              
+              <button type="submit" class="btn btn-danger col-5 ce--order--button btn-block">Tovább a fizetéshez</button>
+            </form>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
