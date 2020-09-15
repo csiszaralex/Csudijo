@@ -12,4 +12,8 @@ Optimális felbontás: 1536*864 px
 
 ## TODO
 * Rólunk
+## Spechez:
+* Rólunk: Kép, kajás idézet
+* Elérhetőségek: Nyitvatartás
 * Logo
+* meta: author, keyword, description
