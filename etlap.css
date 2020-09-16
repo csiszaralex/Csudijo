@@ -32,6 +32,10 @@ section .ce--table td {
   text-align: center;
 }
 
+section .ce--table th {
+  text-align: center;
+}
+
 section .ce--allergen {
   height: 1.2em;
 }
