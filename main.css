@@ -205,8 +205,6 @@ article a:hover {
 
 article a:after {
   margin-left: 0.7vw;
-  position: relative;
-  background: none repeat scroll 0 0 transparent;
   content: "";
   display: block;
   height: 1px;
