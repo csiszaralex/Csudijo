@@ -106,8 +106,6 @@ nav ul li a:hover {
 }
 
 nav ul li a:after {
-  position: relative;
-  background: none repeat scroll 0 0 transparent;
   content: "";
   display: block;
   height: 1px;
