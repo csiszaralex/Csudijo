@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  .ce--employee {
+    border: gold 15px solid;
+    margin-bottom: 7vh;
+  }
+  overflow-x: auto;
+  p.ce--desc {
+    opacity: 0.75;
+    font-size: 1.2em;
+    margin-top: 0.7vw;
+    text-align: justify;
+    margin-right: 3vw;
+    padding-left: 0.7vw;
+  }
+  .ce--icon--sm {
+    font-size: 4vh;
+    margin-top: 2vh;
+    color: white;
+    margin-right: 2vw;
+  }
+}
+
+article {
+  h2 {
+    margin-bottom: 5vw;
+  }
+  p.ce--desc {
+    opacity: 0.75;
+    font-size: 1.5em;
+    margin-top: 0.7vw;
+    text-align: justify;
+    margin-right: 3vw;
+    padding-left: 0.7vw;
+  }
+  .ce--img {
+    width: 100%;
+  }
+}

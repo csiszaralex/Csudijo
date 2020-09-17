@@ -7,13 +7,7 @@ Készítők:
 * Tóth Balázs
 
 ## Specifikáció
-Optimális felbontás: 1536*864 px
-[Classroom](https://classroom.google.com)
+Optimális felbontás: 1536*864 px <br/>
+[GitHub](https://github.com/csiszaralex/csudijo)
 
-## TODO
-* Rólunk
-## Spechez:
-* Rólunk: Kép, kajás idézet
-* Elérhetőségek: Nyitvatartás
-* Logo
-* meta: author, keyword, description
+## ToDo

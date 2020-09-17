@@ -1,0 +1,71 @@
+section {
+  .ce--item {
+    display: flex;
+    justify-content: space-between;
+    strong {
+      font-weight: 600;
+    }
+    &:hover {
+      strong {
+        font-weight: 800;
+      }
+      span {
+        font-style: italic;
+      }
+    }
+  }
+  .ce--table {
+    width: 100%;
+    align-self: flex-end;
+    td {
+      text-align: center;
+    }
+    th {
+      text-align: center;
+    }
+    overflow-y: hidden;
+    overflow-x: scroll;
+    min-height: 120px;
+  }
+
+  .ce--allergen {
+    height: 1.2em;
+  }
+}
+
+article {
+  p.ce--desc {
+    opacity: 0.75;
+    font-size: 1.25em;
+    margin-top: 5vw;
+    text-align: justify;
+    margin-right: 3vw;
+    padding-left: 0.7vw;
+  }
+
+  .ce--order {
+    z-index: 100;
+    margin-top: 10vh;
+    margin-bottom: 1.5vh;
+    font-weight: 200;
+    font-size: 1.5em;
+    position: relative;
+    top: -175px;
+  }
+  .ce--back--text {
+    z-index: 10;
+    // position: absolute;
+    margin-top: 5vh;
+    font-size: 6em;
+    opacity: 0.2;
+    overflow: hidden;
+    width: 100%;
+  }
+  .ce--img {
+    z-index: 20;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -185px;
+  }
+}

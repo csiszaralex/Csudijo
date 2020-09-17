@@ -1,0 +1,48 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-x: auto;
+}
+
+section .ce--employee {
+  border: gold 15px solid;
+  margin-bottom: 7vh;
+}
+
+section p.ce--desc {
+  opacity: 0.75;
+  font-size: 1.2em;
+  margin-top: 0.7vw;
+  text-align: justify;
+  margin-right: 3vw;
+  padding-left: 0.7vw;
+}
+
+section .ce--icon--sm {
+  font-size: 4vh;
+  margin-top: 2vh;
+  color: white;
+  margin-right: 2vw;
+}
+
+article h2 {
+  margin-bottom: 5vw;
+}
+
+article p.ce--desc {
+  opacity: 0.75;
+  font-size: 1.5em;
+  margin-top: 0.7vw;
+  text-align: justify;
+  margin-right: 3vw;
+  padding-left: 0.7vw;
+}
+
+article .ce--img {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */
