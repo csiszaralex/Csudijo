@@ -11,3 +11,7 @@ Optimális felbontás: 1536*864 px <br/>
 [GitHub](https://github.com/csiszaralex/csudijo)
 
 ## ToDo
+
+----
+
+## This repository has been archived after mark 5
